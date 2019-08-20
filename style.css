@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #eee;
+	/*background-image: url("images/namebg.png")*/
+}
+
+#set_name_body{
+	background-image: url("images/namebg.png");
+	background-color: #404040;
+}
+
+#game{
+	width: 600px;
+	height: 600px;
+	padding: 5%;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.cell{
+	width: 33%;
+	height: 33%;
+	background-color: #ddd;
+	display: inline-block;
+	float: left;
+	border: 1px solid #ccc;
+	font-size: 80px;
+	cursor: pointer;
+}
+
+.cell:hover{
+	background-color: #eee;
+}
+
+.cell:disabled{
+	cursor: default;
+}
+
+.cell:disabled:hover{
+	background-color: #ddd;
+}
+
+.cell.cO{
+	color: #E04646;
+}
+
+.cell.cX{
+	color: #4689E0;
+}
+
+.cO{
+	color: #E04646;
+}
+
+.cX{
+	color: #4689E0;
+}
+
+footer{
+	position: fixed;
+	left: 2%;
+	bottom: 2%;
+	font-size: 14px;
+}
+
+.startbtn{
+	width: 200px;
+	height: 50px;
+	font-size: 30px;
+	background-color: #3CBC8A; 
+	margin-top: 10px;
+	border: none;
+	border-radius: 1em;
+}
+
+.startbtn:hover{
+	background-color: #48FFBC;
+}
+
+#result{
+	position: absolute;
+	top : 250px;
+	right: 0;
+	left: 0;
+	line-height: 80px;
+	background-color: rgba(0,0,0,0.9);
+	color: #fff;
+	font-size: 5em;
+}
+
+.span6{
+	margin: 50px;
+	font-size: 25px;
+}
+
+#bgturn{
+	opacity: 0.3;
+}
+
+#result p{
+	font-size: 2rem;
+	color: #E04695;
+}
+
+#result a{
+	color: #04FF31;
+}
+
+.myform{
+	margin-top: 30%;
+}
+
+.myform input{
+	width: 40em;
+	font-size: 2em;
+	text-align: center;
+	height: 3em;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	border-radius: 1em;
+	border-color: #00ffbf;
+	max-width: 100%;
+}
+
+#subbtn{
+	border: none;
+	border-radius: 1em; 
+	width: 15em;
+	background-color: #34ff58;
+	max-width: 100%;
+}
